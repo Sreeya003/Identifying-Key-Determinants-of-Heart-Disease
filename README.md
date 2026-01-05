@@ -7,13 +7,18 @@ The pipeline achieves high diagnostic accuracy, specifically isolating high-sign
 ___________________________________________________________________________________________________________________________________________
 🚀**Key Features & Methodology**
 🛠️ Data Engineering & EDA
+
     Cleaning: Processed and encoded mixed-type variables for seamless modeling.
+    
     Analysis: Performed deep Exploratory Data Analysis (EDA) to validate distributions and ensure modeling readiness.
 
 🧪 Inferential Screening
+
    To eliminate noise and focus on "true" predictors, I conducted:
    t-tests & ANOVA: For continuous physiological metrics (age, cholesterol, etc.).
+   
    Chi-Square Tests: To find significant associations between categorical risks.
+   
    Signal Capture: Only statistically significant variables were moved to the modeling phase.
 
 🤖 Predictive Modeling
